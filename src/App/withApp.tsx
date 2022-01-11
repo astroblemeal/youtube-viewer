@@ -15,7 +15,6 @@ export const withApp = (Component: React.FC<AppPropTypes>) => {
 
     const videoSearch = (term) => {
       YTSearch({ key: YOUTUBE_API_KEY, term: term }, (videos) => {
-        console.log('videos', videos)
         setVideos(videos)
         setSelectedVideo(videos[0])
       })

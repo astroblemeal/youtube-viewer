@@ -1,7 +1,7 @@
 import VideoList from '../components/VideoList'
 import VideoDetail from '../components/VideoDetail'
 import { withApp } from './withApp'
-import SearchBar from '../components/SearchBar/SearchBar'
+import SearchBar from '../components/SearchBar'
 import { AppPropTypes } from './interface'
 
 function App({
